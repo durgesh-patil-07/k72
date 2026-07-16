@@ -1,5 +1,5 @@
 import React, { useContext, useRef } from 'react'
-import { NavbarColorContext, NavbarContext } from '../../context/NavContext'
+import { NavbarColorContext, NavbarContext } from '../context/NavContext'
 
 const Navbar = () => {
 
