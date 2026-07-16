@@ -1,18 +1,11 @@
-import React from 'react';
-import sampleVideo from '../videos/video1.mp4';
-
+import React from 'react'
+import video from "../videos/video1.mp4"
 const Video = () => {
   return (
-    <div className="w-full h-full">
-      <video
-        className="w-full h-full object-cover"
-        autoPlay
-        loop
-        muted
-        src={sampleVideo}
-      />
+    <div className='h-full w-full'>
+        <video className='h-full w-full object-cover' autoPlay loop muted src={video}></video>
     </div>
-  );
-};
+  )
+}
 
-export default Video;
+export default Video
